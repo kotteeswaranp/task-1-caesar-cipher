@@ -7,7 +7,7 @@ def encrypt(plain_text, shift_amount):
     for letter in plain_text:
         if letter in alphabet:
             position = alphabet.index(letter)
-            new_position = (position + shift_amount) % 26
+            new_position = (position + shift_amount) 
             cipher_text += alphabet[new_position]
         else:
           
